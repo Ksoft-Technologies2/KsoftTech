@@ -48,3 +48,8 @@ body{
 .imageDiv > img{
     height: 50vh;
 }
+@media screen and (max-width:400px) {
+    .imageDiv > img{
+        height: 20vh;
+    }
+}
