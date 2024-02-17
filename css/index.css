@@ -28,3 +28,10 @@ body{
 .btn:hover{
     color: #fff !important;
 }
+@media screen and (max-width:400px) {
+    .navbar-brand > img{
+        height: 16vh;
+        margin-right: -9rem !important;
+    }
+    
+}
