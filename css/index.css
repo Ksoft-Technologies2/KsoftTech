@@ -6,6 +6,10 @@ body{
 .navbar{
     background: #fc5520;
 }
+#top-header{
+    position: sticky !important;
+    top: 0 !important;
+}
 .navbar-brand > img{
     height: 16vh;
     margin-right: 10rem !important;
@@ -29,10 +33,15 @@ body{
 .btn:hover{
     color: #fff !important;
 }
-/* @media screen and (max-width:400px) {
-    .navbar-brand > img{
-        height: 16vh;
-        margin-right: -9rem !important;
-    }
-    
-} */
+.home-content{
+   background: navy;
+   height: 200vh;
+   padding: 1rem;
+}
+.text-div > h1{
+    color: #fff;
+}
+.home-content > img{
+    width: 100%;
+    height: 80vh;
+}
