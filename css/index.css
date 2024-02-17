@@ -1,0 +1,30 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background: #fc5520;
+}
+.navbar-brand > img{
+    height: 16vh;
+    margin-right: 18rem !important;
+}
+.nav-link{
+    color: #fff !important;
+    font-size: 18px !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 1rem;
+}
+.nav-link:hover{
+    color: navy !important;
+}
+.dropdown-item:hover{
+    color: navy !important;
+}
+.btn{
+    background-color: #fff !important;
+}
+.btn:hover{
+    color: #fff !important;
+}
