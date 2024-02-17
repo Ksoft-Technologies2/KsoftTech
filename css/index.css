@@ -56,4 +56,8 @@ body{
     .navbar-brand > img{
         margin-right: -10rem !important;
     }
+    .home-content > img{
+        width: 100%;
+        height: 60vh;
+    }
 }
